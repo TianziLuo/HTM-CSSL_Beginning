@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 1</title>
+    <!--External style sheet-->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!--Internal style sheet-->
+    <!-- Overwritten the external style sheet-->
+    <style>
+      .title {
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        text-align: left;
+      }
+      P {
+        color: blue;
+        text-align: center;
+      }
+      span {
+        color: violet;
+      }
+      ul,
+      li {
+        font-size: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--header-->
+    <h1>Lesson 1: Start</h1>
+    <!--summary-->
+    <p class="title">Summary:</p>
+    <ul>
+      <li>
+        CSS is the language we use to style an HTML document. CSS describes how
+        HTML elements should be displayed.
+      </li>
+      <li>
+        External Style Sheet: by using a <u>&lt;link&gt;</u> element ito link to
+        an external CSS file.
+        <br />
+        <span>&lt; link rel="stylesheet" href=""&gt;</span>
+      </li>
+
+      <li>
+        Internal Style Sheet: by using a <u>&lt;style&gt;</u> element in the
+        &lt;head&gt; section
+      </li>
+
+      <li>
+        Inline Style Sheet: by using the <u>style attribute</u> inside HTML
+        elements
+      </li>
+    </ul>
+    <!--exercise-->
+    <p class="title">Exercise:</p>
+    <p>I'm learning CSS!</p>
+
+    <!--resource-->
+    <p class="title">Resource:</p>
+    <h2>
+      CSS Validator:
+      <a href="https://jigsaw.w3.org/css-validator/" target="_blank">
+        The W3C CSS Validation</a
+      >
+    </h2>
+  </body>
+</html>

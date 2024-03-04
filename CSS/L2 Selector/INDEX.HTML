@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Lesson 2</title>
+    <style>
+      .title {
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        text-align: left;
+      }
+      .head {
+        text-align: center;
+      }
+      ul,
+      li {
+        font-size: 30px;
+      }
+      .border {
+        border-width: 5px;
+        border-style: solid;
+        border-color: darkslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <h1 class="head">Lesson 2: Selector</h1>
+    <!--summary-->
+    <p class="title">Summary:</p>
+    <ul>
+      <li>Universal Selector: most general. Reset the CSS.</li>
+      <li>Element Selector: more general.</li>
+      <li>
+        Class Selector: more specific attribute. Select elements with a specific
+        classname. Reusable.
+      </li>
+
+      <li>
+        Id Selector: most specific. Used to select one unique element within a
+        page. Not recommand!
+        <br />
+      </li>
+
+      <li>
+        !Important: Add more importance to a property/value than normal. Not
+        recommand!
+      </li>
+    </ul>
+
+    <!--exercise-->
+    <p class="title">Exercise:</p>
+    <p class="border"><h1 class="head">CSS Selector</h1>
+
+    <h2>Article 1</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ea
+      voluptate a aut, deserunt veritatis ducimus quod, cum exercitationem
+      provident, fuga doloremque! In delectus expedita fugiat, sed veniam
+      veritatis eius.
+    </p>
+
+    <h2>Article 2</h2>
+    <p class="grap" id="second">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ea
+      voluptate a aut, deserunt veritatis ducimus quod, cum
+      <span class="hightlight">exercitationem</span>
+      provident, fuga doloremque! In delectus expedita fugiat, sed veniam
+      veritatis eius.
+    </p>
+
+    <h2>Article 3</h2>
+    <p class="gray">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ea
+      voluptate a aut, deserunt veritatis ducimus quod,
+      <span>exercitationem</span>
+      provident, fuga doloremque! In delectus expedita fugiat, sed veniam
+      veritatis eius.
+    </p>
+
+    <h2>Article 4</h2>
+    <p class="parent">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ea
+      voluptate a aut, deserunt veritatis ducimus quod, exercitationem
+      provident, fuga doloremque! In delectus expedita fugiat, sed veniam
+      veritatis eius.
+    </p>
+
+    <h2>Article 5</h2>
+    <p class="child">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ea
+      voluptate a aut, deserunt veritatis ducimus quod, exercitationem
+      provident, fuga doloremque! In delectus expedita fugiat, sed veniam
+      veritatis eius.
+    </p></p>
+  </body>
+</html>
+<!--<span> general tag, can used for CSS selector-->
