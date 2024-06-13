@@ -1,0 +1,18 @@
+
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 1em ;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(72, 6, 226);
+}
+.p1{
+    font-size: 2rem;
+    border: 0.1em dashed green
+}
+.p2{
+    font-size: 80%;
+}

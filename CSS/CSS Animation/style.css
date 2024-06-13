@@ -1,0 +1,48 @@
+#box{
+    width:250px;
+    height:250px;
+    background: lightblue;
+    font-size:125px;
+    text-align:center;
+    margin-left: 50%;
+/*
+    animation:myslide;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    */
+}
+
+#box:hover{
+    animation: myslide 5s ease 0s 1, rotate 5s linear 0s 5;
+}
+
+
+@keyframes myslide{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotateX(0deg)
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes myscale {
+    50%{
+        transform: scale(0.5,0.5);
+    }
+}

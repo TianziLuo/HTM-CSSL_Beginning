@@ -1,0 +1,65 @@
+/*
+                    BOX MODEL
+
+        +-----------------------------------+
+        |           Margin                  |
+        |  +-----------------------------+  |
+        |  |         Border              |  |
+        |  |  +-----------------------+  |  |
+        |  |  |      Padding          |  |  |
+        |  |  |  +-----------------+  |  |  |
+        |  |  |  |   Content       |  |  |  |
+        |  |  |  +-----------------+  |  |  |
+        |  |  |                       |  |  |
+        |  |  +-----------------------+  |  |
+        |  |                             |  |
+        |  +-----------------------------+  |
+        +-----------------------------------+
+
+
+*/
+
+#box{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+
+/* 
+            Grid
+    parent container
+    child container
+*/           
+#parent{
+    display: grid;
+    margin:20px 20px;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+#son{
+    grid-column: 2/3;
+    grid-row: 2;
+    border: 15px solid sandybrown;
+    background-color: blanchedalmond;
+}
+
+/*              Flex
+
+*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    font-size: larger;
+    background-color: lightgreen;
+    text-align: center;
+}
